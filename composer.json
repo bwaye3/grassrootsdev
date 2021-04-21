@@ -29,6 +29,7 @@
         "drupal/entity": "^1.2",
         "drupal/entity_reference_revisions": "^1.9",
         "drupal/features": "^3.12",
+        "drupal/iframe": "^2.10",
         "drupal/image_url_formatter": "^1.0",
         "drupal/imce": "^2.4",
         "drupal/ludwig": "^1.7",
