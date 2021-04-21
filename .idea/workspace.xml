@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75ae6a4e-3b73-4fbe-a982-85efeab5b9f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cpanel.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sync/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sync/README.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="75ae6a4e-3b73-4fbe-a982-85efeab5b9f3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +182,7 @@
       <workItem from="1618972130586" duration="734000" />
       <workItem from="1618973676171" duration="33000" />
       <workItem from="1618973721706" duration="17000" />
-      <workItem from="1618973787325" duration="300000" />
+      <workItem from="1618973787325" duration="615000" />
     </task>
     <servers />
   </component>

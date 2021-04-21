@@ -4,7 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/grassroot/drupal/
     - /bin/cp -R * $DEPLOYPATH
 
-
 #deployment:
 #tasks:
 #  - export DEPLOYPATH=/home/grassroot/public_html/staging  # Add /<app_folder> if required
