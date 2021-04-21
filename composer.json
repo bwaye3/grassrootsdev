@@ -34,6 +34,7 @@
         "drupal/ludwig": "^1.7",
         "drupal/pathauto": "^1.8",
         "drupal/profile": "^1.2",
+        "drupal/quick_node_clone": "^1.14",
         "drupal/state_machine": "^1.0",
         "drupal/token": "^1.9",
         "drupal/views_infinite_scroll": "^1.8",
