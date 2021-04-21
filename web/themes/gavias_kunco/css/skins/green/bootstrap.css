@@ -1165,7 +1165,7 @@ a {
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #009673;
+  color: #86A397;
   text-decoration: none;
 }
 
@@ -1391,7 +1391,7 @@ mark,
 }
 
 .text-primary {
-  color: #009673;
+  color: #86A397;
 }
 
 a.text-primary:hover {
@@ -1435,7 +1435,7 @@ a.text-danger:hover {
 }
 
 .bg-primary {
-  background-color: #009673;
+  background-color: #86A397;
 }
 
 a.bg-primary:hover {
@@ -3496,7 +3496,7 @@ select[multiple].input-lg,
   border-color: transparent;
 }
 .btn-link:hover, .btn-link:focus {
-  color: #009673;
+  color: #86A397;
   text-decoration: underline;
   background-color: transparent;
 }
