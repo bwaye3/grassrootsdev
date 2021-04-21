@@ -44,8 +44,8 @@
 
 # Ignore paths that contain user-generated content <set by MHA>.
 sites/*/files
-#sites/*/private
-#files/*
+sites/*/private
+files/*
 
 # Ignore paths that may contain user-generated content <updated Brad>
 /web/sites/*/files
@@ -179,4 +179,3 @@ fabric.properties
 
 # End of https://www.gitignore.io/api/phpstorm
 
-solr-8.7.0
