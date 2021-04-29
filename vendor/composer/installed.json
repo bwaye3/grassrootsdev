@@ -165,6 +165,52 @@
         ]
     },
     {
+        "name": "commerceguys/intl",
+        "version": "v1.0.8",
+        "version_normalized": "1.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/commerceguys/intl.git",
+            "reference": "b8df285687b8d5d6494874d22e2e5cf625dbe180"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/commerceguys/intl/zipball/b8df285687b8d5d6494874d22e2e5cf625dbe180",
+            "reference": "b8df285687b8d5d6494874d22e2e5cf625dbe180",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.8"
+        },
+        "require-dev": {
+            "mikey179/vfsstream": "1.*",
+            "phpunit/phpunit": "^6.0"
+        },
+        "time": "2020-12-05T16:31:25+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CommerceGuys\\Intl\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bojan Zivanovic"
+            }
+        ],
+        "description": "Internationalization library powered by CLDR data."
+    },
+    {
         "name": "composer/installers",
         "version": "v1.11.0",
         "version_normalized": "1.11.0.0",
@@ -2156,6 +2202,391 @@
         }
     },
     {
+        "name": "drupal/commerce",
+        "version": "2.24.0",
+        "version_normalized": "2.24.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/commerce.git",
+            "reference": "8.x-2.24"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/commerce-8.x-2.24.zip",
+            "reference": "8.x-2.24",
+            "shasum": "ebe1b58bc87446ad1edbfd62ed8fffb8583b68fb"
+        },
+        "require": {
+            "commerceguys/intl": "^1.0.0",
+            "drupal/address": "^1.7",
+            "drupal/core": "^8.8 || ^9",
+            "drupal/entity": "^1.0-rc2",
+            "drupal/entity_reference_revisions": "~1.0",
+            "drupal/inline_entity_form": "^1.0-rc6",
+            "drupal/profile": "^1.0",
+            "drupal/state_machine": "^1.0-rc1",
+            "drupal/token": "^1.0",
+            "ext-bcmath": "*",
+            "php": ">=7.0.8"
+        },
+        "require-dev": {
+            "drupal/commerce_cart": "*",
+            "drupal/commerce_number_pattern": "*",
+            "drupal/commerce_order": "*",
+            "drupal/commerce_payment": "*",
+            "drupal/commerce_price": "*",
+            "drupal/commerce_product": "*",
+            "drupal/commerce_store": "*",
+            "drupal/entity_print": "^2.2",
+            "drupal/entity_reference_revisions": "*",
+            "drupal/mailsystem": "^4.3",
+            "drupal/profile": "*",
+            "drupal/state_machine": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.24",
+                "datestamp": "1612928996",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "jsacksick",
+                "homepage": "https://www.drupal.org/user/972218"
+            },
+            {
+                "name": "mglaman",
+                "homepage": "https://www.drupal.org/user/2416470"
+            },
+            {
+                "name": "rszrama",
+                "homepage": "https://www.drupal.org/user/49344"
+            }
+        ],
+        "description": "Drupal Commerce is a flexible eCommerce solution.",
+        "homepage": "http://drupal.org/project/commerce",
+        "support": {
+            "source": "https://git.drupalcode.org/project/commerce"
+        }
+    },
+    {
+        "name": "drupal/commerce_number_pattern",
+        "version": "2.24.0",
+        "version_normalized": "2.24.0.0",
+        "require": {
+            "drupal/commerce": "*",
+            "drupal/commerce_store": "*",
+            "drupal/core": "^8.8 || ^9"
+        },
+        "type": "metapackage",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.24",
+                "datestamp": "1612928996",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "jsacksick",
+                "homepage": "https://www.drupal.org/user/972218"
+            },
+            {
+                "name": "mglaman",
+                "homepage": "https://www.drupal.org/user/2416470"
+            },
+            {
+                "name": "rszrama",
+                "homepage": "https://www.drupal.org/user/49344"
+            }
+        ],
+        "description": "Provides configurable patterns for generating sequential numbers.",
+        "homepage": "https://www.drupal.org/project/commerce",
+        "support": {
+            "source": "https://git.drupalcode.org/project/commerce"
+        }
+    },
+    {
+        "name": "drupal/commerce_order",
+        "version": "2.24.0",
+        "version_normalized": "2.24.0.0",
+        "require": {
+            "drupal/commerce": "*",
+            "drupal/commerce_number_pattern": "*",
+            "drupal/commerce_price": "*",
+            "drupal/commerce_store": "*",
+            "drupal/core": "^8.8 || ^9",
+            "drupal/entity_reference_revisions": "*",
+            "drupal/profile": "*",
+            "drupal/state_machine": "*"
+        },
+        "type": "metapackage",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.24",
+                "datestamp": "1612928996",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "jsacksick",
+                "homepage": "https://www.drupal.org/user/972218"
+            },
+            {
+                "name": "mglaman",
+                "homepage": "https://www.drupal.org/user/2416470"
+            },
+            {
+                "name": "rszrama",
+                "homepage": "https://www.drupal.org/user/49344"
+            }
+        ],
+        "description": "Defines the Order entity and associated features.",
+        "homepage": "https://www.drupal.org/project/commerce",
+        "support": {
+            "source": "https://git.drupalcode.org/project/commerce"
+        }
+    },
+    {
+        "name": "drupal/commerce_payment",
+        "version": "2.24.0",
+        "version_normalized": "2.24.0.0",
+        "require": {
+            "drupal/commerce": "*",
+            "drupal/commerce_order": "*",
+            "drupal/core": "^8.8 || ^9",
+            "drupal/entity_reference_revisions": "*"
+        },
+        "type": "metapackage",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.24",
+                "datestamp": "1612928996",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "jsacksick",
+                "homepage": "https://www.drupal.org/user/972218"
+            },
+            {
+                "name": "mglaman",
+                "homepage": "https://www.drupal.org/user/2416470"
+            },
+            {
+                "name": "rszrama",
+                "homepage": "https://www.drupal.org/user/49344"
+            }
+        ],
+        "description": "Provides payment functionality.",
+        "homepage": "https://www.drupal.org/project/commerce",
+        "support": {
+            "source": "https://git.drupalcode.org/project/commerce"
+        }
+    },
+    {
+        "name": "drupal/commerce_paypal",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/commerce_paypal.git",
+            "reference": "0941a2ed82194bf9712818043707d7a8a08851b6"
+        },
+        "require": {
+            "drupal/commerce": "^2.19",
+            "drupal/commerce_payment": "*",
+            "drupal/core": "^8.8 || ^9",
+            "sainsburys/guzzle-oauth2-plugin": "^3.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-rc2+5-dev",
+                "datestamp": "1615236226",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "jsacksick",
+                "homepage": "https://www.drupal.org/user/972218"
+            },
+            {
+                "name": "mglaman",
+                "homepage": "https://www.drupal.org/user/2416470"
+            },
+            {
+                "name": "rszrama",
+                "homepage": "https://www.drupal.org/user/49344"
+            }
+        ],
+        "description": "Provides Commerce integration for PayPal.",
+        "homepage": "http://drupal.org/project/commerce_paypal",
+        "support": {
+            "source": "https://git.drupalcode.org/project/commerce_paypal"
+        }
+    },
+    {
+        "name": "drupal/commerce_price",
+        "version": "2.24.0",
+        "version_normalized": "2.24.0.0",
+        "require": {
+            "drupal/commerce": "*",
+            "drupal/core": "^8.8 || ^9"
+        },
+        "type": "metapackage",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.24",
+                "datestamp": "1612928996",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "jsacksick",
+                "homepage": "https://www.drupal.org/user/972218"
+            },
+            {
+                "name": "mglaman",
+                "homepage": "https://www.drupal.org/user/2416470"
+            },
+            {
+                "name": "rszrama",
+                "homepage": "https://www.drupal.org/user/49344"
+            }
+        ],
+        "description": "Defines the Currency entity.",
+        "homepage": "https://www.drupal.org/project/commerce",
+        "support": {
+            "source": "https://git.drupalcode.org/project/commerce"
+        }
+    },
+    {
+        "name": "drupal/commerce_store",
+        "version": "2.24.0",
+        "version_normalized": "2.24.0.0",
+        "require": {
+            "drupal/commerce": "*",
+            "drupal/commerce_price": "*",
+            "drupal/core": "^8.8 || ^9"
+        },
+        "type": "metapackage",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.24",
+                "datestamp": "1612928996",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "jsacksick",
+                "homepage": "https://www.drupal.org/user/972218"
+            },
+            {
+                "name": "mglaman",
+                "homepage": "https://www.drupal.org/user/2416470"
+            },
+            {
+                "name": "rszrama",
+                "homepage": "https://www.drupal.org/user/49344"
+            }
+        ],
+        "description": "Defines the Store entity and associated features.",
+        "homepage": "https://www.drupal.org/project/commerce",
+        "support": {
+            "source": "https://git.drupalcode.org/project/commerce"
+        }
+    },
+    {
         "name": "drupal/config_update",
         "version": "1.7.0",
         "version_normalized": "1.7.0.0",
@@ -3256,6 +3687,92 @@
         }
     },
     {
+        "name": "drupal/inline_entity_form",
+        "version": "1.0.0-rc9",
+        "version_normalized": "1.0.0.0-RC9",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/inline_entity_form.git",
+            "reference": "8.x-1.0-rc9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc9.zip",
+            "reference": "8.x-1.0-rc9",
+            "shasum": "78953103a9c6e4e44bc877820a35f39913ea4559"
+        },
+        "require": {
+            "drupal/core": "^8.8 || ^9",
+            "php": ">=7.1"
+        },
+        "require-dev": {
+            "drupal/entity_reference_revisions": "^1.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-1.0-rc9",
+                "datestamp": "1618174486",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "RC releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "dawehner",
+                "homepage": "https://www.drupal.org/user/99340"
+            },
+            {
+                "name": "geek-merlin",
+                "homepage": "https://www.drupal.org/user/229048"
+            },
+            {
+                "name": "joachim",
+                "homepage": "https://www.drupal.org/user/107701"
+            },
+            {
+                "name": "jsacksick",
+                "homepage": "https://www.drupal.org/user/972218"
+            },
+            {
+                "name": "kaythay",
+                "homepage": "https://www.drupal.org/user/2182186"
+            },
+            {
+                "name": "oknate",
+                "homepage": "https://www.drupal.org/user/471638"
+            },
+            {
+                "name": "rszrama",
+                "homepage": "https://www.drupal.org/user/49344"
+            },
+            {
+                "name": "slashrsm",
+                "homepage": "https://www.drupal.org/user/744628"
+            },
+            {
+                "name": "webflo",
+                "homepage": "https://www.drupal.org/user/254778"
+            }
+        ],
+        "description": "Provides a widget for inline management (creation, modification, removal) of referenced entities.",
+        "homepage": "https://www.drupal.org/project/inline_entity_form",
+        "support": {
+            "source": "https://git.drupalcode.org/project/inline_entity_form"
+        }
+    },
+    {
         "name": "drupal/ludwig",
         "version": "1.7.0",
         "version_normalized": "1.7.0.0",
@@ -4057,6 +4574,58 @@
             "security",
             "security advisories",
             "vulnerability scanner"
+        ]
+    },
+    {
+        "name": "firebase/php-jwt",
+        "version": "v5.2.1",
+        "version_normalized": "5.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/firebase/php-jwt.git",
+            "reference": "f42c9110abe98dd6cfe9053c49bc86acc70b2d23"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/firebase/php-jwt/zipball/f42c9110abe98dd6cfe9053c49bc86acc70b2d23",
+            "reference": "f42c9110abe98dd6cfe9053c49bc86acc70b2d23",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=4.8 <=9"
+        },
+        "time": "2021-02-12T00:02:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Firebase\\JWT\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Neuman Vong",
+                "email": "neuman+pear@twilio.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Anant Narayanan",
+                "email": "anant@php.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+        "homepage": "https://github.com/firebase/php-jwt",
+        "keywords": [
+            "jwt",
+            "php"
         ]
     },
     {
@@ -5438,6 +6007,57 @@
             }
         ],
         "description": "A polyfill for getallheaders."
+    },
+    {
+        "name": "sainsburys/guzzle-oauth2-plugin",
+        "version": "v3.0.5",
+        "version_normalized": "3.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Sainsburys/guzzle-oauth2-plugin.git",
+            "reference": "485edd64870dd951f8fc6ec362296f11787194bf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Sainsburys/guzzle-oauth2-plugin/zipball/485edd64870dd951f8fc6ec362296f11787194bf",
+            "reference": "485edd64870dd951f8fc6ec362296f11787194bf",
+            "shasum": ""
+        },
+        "require": {
+            "firebase/php-jwt": "^3.0|^4.0|^5.0",
+            "guzzlehttp/guzzle": "^6.0",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8"
+        },
+        "time": "2017-11-07T13:08:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sainsburys\\Guzzle\\Oauth2\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bojan Zivanovic"
+            },
+            {
+                "name": "Damien Tournoud"
+            },
+            {
+                "name": "Patrick Dawkins"
+            },
+            {
+                "name": "Daniel Macedo"
+            }
+        ],
+        "description": "An OAuth2 middleware for Guzzle"
     },
     {
         "name": "stack/builder",

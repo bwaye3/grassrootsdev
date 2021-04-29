@@ -87,6 +87,7 @@ class ComposerStaticInit06af4ff28e3006b158810392c937d4b1
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'SelfUpdate\\' => 11,
+            'Sainsburys\\Guzzle\\Oauth2\\' => 25,
         ),
         'R' => 
         array (
@@ -125,6 +126,10 @@ class ComposerStaticInit06af4ff28e3006b158810392c937d4b1
             'Grasmash\\YamlExpander\\' => 22,
             'Grasmash\\Expander\\' => 18,
         ),
+        'F' => 
+        array (
+            'Firebase\\JWT\\' => 13,
+        ),
         'E' => 
         array (
             'Enlightn\\SecurityChecker\\' => 25,
@@ -160,6 +165,7 @@ class ComposerStaticInit06af4ff28e3006b158810392c937d4b1
             'Consolidation\\AnnotatedCommand\\' => 31,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
+            'CommerceGuys\\Intl\\' => 18,
             'CommerceGuys\\Addressing\\' => 24,
         ),
         'A' => 
@@ -313,6 +319,10 @@ class ComposerStaticInit06af4ff28e3006b158810392c937d4b1
         array (
             0 => __DIR__ . '/..' . '/consolidation/self-update/src',
         ),
+        'Sainsburys\\Guzzle\\Oauth2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sainsburys/guzzle-oauth2-plugin/src',
+        ),
         'Robo\\' => 
         array (
             0 => __DIR__ . '/..' . '/consolidation/robo/src',
@@ -389,6 +399,10 @@ class ComposerStaticInit06af4ff28e3006b158810392c937d4b1
         'Grasmash\\Expander\\' => 
         array (
             0 => __DIR__ . '/..' . '/grasmash/expander/src',
+        ),
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
         'Enlightn\\SecurityChecker\\' => 
         array (
@@ -500,6 +514,10 @@ class ComposerStaticInit06af4ff28e3006b158810392c937d4b1
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
+        'CommerceGuys\\Intl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commerceguys/intl/src',
         ),
         'CommerceGuys\\Addressing\\' => 
         array (
