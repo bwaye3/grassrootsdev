@@ -6,7 +6,7 @@ core_version_requirement: ^8 || ^9
 package: Other
 configure: entity_type_clone.type
 
-# Information added by Drupal.org packaging script on 2021-02-24
-version: '8.x-1.6'
+# Information added by Drupal.org packaging script on 2021-05-21
+version: '8.x-1.7'
 project: 'entity_type_clone'
-datestamp: 1614180500
+datestamp: 1621579349
